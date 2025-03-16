@@ -3,7 +3,8 @@
     {
       "source": "/",
       "destination": "https://info.albinaji.site",
-      "permanent": true
+      "permanent": true,
+      "domain": "albinaji.site"
     }
   ]
 }
