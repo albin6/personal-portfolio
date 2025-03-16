@@ -1,5 +1,3 @@
-
-import React from 'react';
 import { Github, Linkedin, Mail, ArrowUp, Code } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -24,7 +22,7 @@ const Footer = () => {
           
           <div className="flex space-x-6 mb-8">
             <a
-              href="https://github.com"
+              href="https://github.com/albin6"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-black/30 hover:bg-black/50 p-3 rounded-full transition-colors"
@@ -33,7 +31,7 @@ const Footer = () => {
               <Github className="h-5 w-5 text-gray-300" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/albin-aji-aa0ab0312/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-black/30 hover:bg-black/50 p-3 rounded-full transition-colors"
@@ -42,7 +40,7 @@ const Footer = () => {
               <Linkedin className="h-5 w-5 text-gray-300" />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:albinpariyarath.pvt@gmail.com"
               className="bg-black/30 hover:bg-black/50 p-3 rounded-full transition-colors"
               aria-label="Email"
             >
