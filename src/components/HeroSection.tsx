@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Code, Server, Globe } from "lucide-react";
+import resume from "../assets/Albin.pdf";
 
 const HeroSection = () => {
   const scrollToProjects = () => {
@@ -85,13 +86,19 @@ const HeroSection = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in"
             style={{ animationDelay: "0.8s" }}
           >
-            <Button
-              size="lg"
-              onClick={scrollToProjects}
-              className="bg-tech-blue hover:bg-tech-blue/90 text-tech-offwhite"
+            <a
+              href={resume}
+              download={"AlbinAji-Resume.pdf"}
+              style={{ textDecoration: "none" }}
             >
-              View My Work
-            </Button>
+              <Button
+                size="lg"
+                className="bg-tech-blue hover:bg-tech-blue/90 text-tech-offwhite"
+              >
+                Download Resume
+              </Button>
+            </a>
+
             <Button
               size="lg"
               variant="outline"
@@ -101,7 +108,7 @@ const HeroSection = () => {
               }}
               className="border-tech-blue text-tech-blue hover:bg-tech-blue/10"
             >
-              Contact Me
+              Connect Me
             </Button>
           </div>
         </div>
