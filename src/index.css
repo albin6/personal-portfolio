@@ -1,0 +1,103 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 7%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 271 91% 65%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 271 91% 65%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 14%;
+    --input: 0 0% 14%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.75rem;
+  }
+
+  body {
+    @apply bg-tech-dark text-tech-offwhite;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight text-tech-offwhite;
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl md:text-5xl;
+  }
+
+  h3 {
+    @apply text-2xl sm:text-3xl;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-tech-blue via-tech-purple to-tech-indigo text-transparent bg-clip-text;
+  }
+
+  .section-padding {
+    @apply py-20 md:py-28;
+  }
+
+  .project-card {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+
+  .nav-link {
+    @apply relative hover:text-tech-blue transition-colors duration-200;
+  }
+
+  .nav-link::after {
+    @apply content-[''] absolute w-0 h-0.5 bg-tech-blue left-0 -bottom-1 transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-md bg-black/70 border border-white/10;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:bg-gradient-to-b hover:from-transparent hover:to-tech-blue/10;
+  }
+
+  .neo-blur {
+    @apply backdrop-blur-xl bg-black/40 border border-white/10 shadow-lg;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-br from-tech-offwhite via-tech-offwhite/90 to-tech-offwhite/70 bg-clip-text text-transparent;
+  }
+  
+  .zinc-blur {
+    @apply backdrop-blur-xl bg-black/60 border border-white/10;
+  }
+}
