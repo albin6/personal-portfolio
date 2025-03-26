@@ -24,61 +24,24 @@ const ProjectsSection = () => {
         "MongoDB",
         "Stripe API",
       ],
-      liveLink: "#",
-      githubLink: "#",
+      liveLink: "https://cell-sphere-shop.vercel.app/https://cell-sphere-shop.vercel.app/",
+      githubLink: "https://github.com/albin6/cell-sphere-MERN",
       image:
-        "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+        "https://res.cloudinary.com/dkph7vdgg/image/upload/v1736265225/cell-sphere_tkefoi.png",
     },
     {
-      title: "Social Media Dashboard",
+      title: "SocialiteX",
       description:
-        "A responsive dashboard that aggregates and displays social media metrics and analytics in real-time using various APIs.",
+        "SocialiteX is a responsive social media platform built with a modern tech stack, including Next.js, PostgreSQL, Prisma, ShadCN, Tailwind CSS, and Clerk for secure authentication.",
       technologies: [
-        "React",
-        "Chart.js",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Social Media APIs",
+        "Next.js",
+        "Postgresql",
+        "Clerk"
       ],
-      liveLink: "#",
-      githubLink: "#",
+      liveLink: "https://socialitex.vercel.app",
+      githubLink: "https://github.com/albin6/socialitex-nextjs",
       image:
-        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-    },
-    {
-      title: "Task Management App",
-      description:
-        "A collaborative task management application with real-time updates, user roles, and project organization features.",
-      technologies: [
-        "React",
-        "Socket.io",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "JWT",
-      ],
-      liveLink: "#",
-      githubLink: "#",
-      image:
-        "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-    },
-    {
-      title: "Blog Platform",
-      description:
-        "A dynamic blogging platform with markdown support, comments, user profiles, and content management system.",
-      technologies: [
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Cloudinary",
-        "Markdown",
-      ],
-      liveLink: "#",
-      githubLink: "#",
-      image:
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+        "https://res.cloudinary.com/dkph7vdgg/image/upload/v1736265107/socialitex_kuxjlf.png",
     },
   ];
 

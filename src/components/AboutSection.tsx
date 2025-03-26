@@ -9,13 +9,14 @@ const AboutSection = () => {
       icon: <Globe className="h-8 w-8 mb-4 text-tech-blue" />,
       items: [
         "React",
+        "Next",
         "Redux",
         "JavaScript (ES6+)",
         "TypeScript",
         "HTML5",
         "CSS3",
         "Tailwind CSS",
-        "Material UI",
+        "Shadcn",
       ],
     },
     {
@@ -25,7 +26,6 @@ const AboutSection = () => {
         "Node.js",
         "Express",
         "RESTful APIs",
-        "GraphQL",
         "Authentication",
         "JWT",
         "OAuth",
@@ -43,11 +43,10 @@ const AboutSection = () => {
         "Git",
         "GitHub",
         "VS Code",
-        "Webpack",
         "npm",
-        "Jest",
-        "Docker",
         "CI/CD",
+        "Figma",
+        "Clerk"
       ],
     },
   ];

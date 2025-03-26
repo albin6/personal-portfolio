@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="h-10 w-10 rounded-md bg-gradient-to-r from-tech-blue to-tech-purple flex items-center justify-center">
               <Code className="h-6 w-6 text-tech-offwhite" />
             </div>
-            <h3 className="text-2xl font-bold gradient-text">Your Name</h3>
+            <h3 className="text-2xl font-bold gradient-text">Albin Aji</h3>
           </div>
           
           <div className="flex space-x-6 mb-8">
